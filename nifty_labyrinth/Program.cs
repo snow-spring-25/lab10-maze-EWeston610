@@ -1,16 +1,16 @@
 using labyrinth;
 
-/* Change this constant to contain your name.
+/* Eric Weston 3/25 Lab 10
  *
  * WARNING: Once you've set set this constant and started exploring your maze,
  * do NOT edit the value of YourName. Changing YourName will change which
  * maze you get back, which might invalidate all your hard work!
 */
-string YOUR_NAME = "TODO: Replace this string with your name.";
+string YOUR_NAME = "Eric Weston";
 
 /* Change these constants to contain the paths out of your mazes. */
-string PATH_OUT_OF_MAZE = "WNWSSSNNNEEESSWWSNEESW";
-string PATH_OUT_OF_TWISTY_MAZE = "SSEENNEWE";
+string PATH_OUT_OF_MAZE = "ESENESNWSSEWNWWSESEE";
+string PATH_OUT_OF_TWISTY_MAZE = "EESWSENEEWNNSSW";
 
 MazeCell startLocation = MazeUtilities.mazeFor(YOUR_NAME);
 
